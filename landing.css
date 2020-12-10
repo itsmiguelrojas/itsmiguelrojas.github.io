@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+  background-color: #DCDCDC
+}
+
+h1 {
+  font-family: 'Alata', sans-serif;
+  letter-spacing: 5px;
+  font-size: 4em;
+}
+
+h2 {
+  color: rgba(33,33,33,0.6);
+  font-size: 1em;
+}
+
+.container-fluid {
+  margin: 2em 0;
+}
+
+.links {
+  background-color: #DCDCDC;
+}
+
+.gallery-wrap {
+  width: 100%;
+  height: 60vh
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: flex 0.8s ease;
+}
+
+.item:hover {
+  flex-basis: 100px;
+}
+
+.item-1 {
+  background-image: url('img/leaf.jpg');
+}
+
+.item-2 {
+  background-image: url('img/flag.jpg');
+}
+
+.item-3 {
+  background-image: url('img/graphs.jpg');
+  filter: brightness(34%);
+  cursor: not-allowed;
+}
+
+.footer {
+  padding-top: 1em;
+  color: rgba(33,33,33,0.6);
+}
+
+.footer .fab {
+  text-decoration: none;
+  color: rgba(33,33,33,0.6);
+  font-size: 1.25em;
+  letter-spacing: 20px;
+  transition: color ease 0.8s
+}
+
+.footer .fab:hover {
+  color: #0000FF;
+}
