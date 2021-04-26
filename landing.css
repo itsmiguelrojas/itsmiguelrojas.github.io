@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
+* {
+  color: rgba(255,255,255,0.6);
+}
+
 body {
-  background-color: #FFFFAB;
+  background-color: #778899;
 }
 
 h1 {
@@ -11,7 +15,6 @@ h1 {
 }
 
 h2 {
-  color: rgba(33,33,33,0.6);
   font-size: 1em;
 }
 
@@ -38,38 +41,35 @@ h2 {
 }
 
 .item:hover {
-  flex-basis: 100px;
+  flex-basis: 200px;
 }
 
-.item-1 {
+.item:nth-child(1) {
   background-image: url('img/leaf.jpg');
 }
 
-.item-2 {
-  background-image: url('img/flag.jpg');
+.item:nth-child(2) {
+  background-image: url('img/graphs.jpg');
 }
 
-.item-3 {
-  background-image: url('img/graphs.jpg');
-  filter: brightness(34%);
-  cursor: not-allowed;
+.item:nth-child(3) {
+  background-image: url('img/flag.jpg');
 }
 
 .footer {
   padding-top: 1em;
-  color: rgba(33,33,33,0.6);
 }
 
 .footer .fab {
   text-decoration: none;
-  color: rgba(33,33,33,0.6);
   font-size: 1.25em;
   margin: 0 1em;
+  color: rgba(255,255,255,0.6);
   transition: color ease 0.8s
 }
 
 .footer .fab:hover {
-  color: #0000FF;
+  color: #FCD303;
 }
 
 @media (max-width:767.98px) {
