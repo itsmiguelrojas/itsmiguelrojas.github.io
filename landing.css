@@ -32,16 +32,18 @@ h2 {
 }
 
 .item {
+  filter: grayscale(80%);
   flex: 1;
   height: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: flex 0.8s ease;
+  transition: all 0.8s ease;
 }
 
 .item:hover {
   flex-basis: 200px;
+  filter: none;
 }
 
 .item:nth-child(1) {
